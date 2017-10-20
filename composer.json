@@ -1,0 +1,20 @@
+{
+  "name": "zabornyi/package_test",
+  "description": "test composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexander Zabornyi",
+      "email": "post0778@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
