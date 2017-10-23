@@ -9,4 +9,4 @@ composer require zabornyi/package_test
 + php: >=7.0.0
 
 ### requires (dev)
-+ phpunit/phpunit: ~6.0
++ phpunit/phpunit: ^6.4
