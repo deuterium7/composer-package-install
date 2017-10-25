@@ -21,7 +21,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "AlexanderZabornyi\\Tests\\": "tests"
+      "AlexanderZabornyi\\PackageTest\\Tests\\": "tests"
     }
   }
 }
