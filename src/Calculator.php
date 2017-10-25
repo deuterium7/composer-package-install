@@ -9,6 +9,7 @@ class Calculator
      *
      * @param float $a
      * @param float $b
+     *
      * @return float
      */
     public function add(float $a, float $b)
@@ -21,6 +22,7 @@ class Calculator
      *
      * @param float $a
      * @param float $b
+     *
      * @return float
      */
     public function subtract(float $a, float $b)
@@ -33,6 +35,7 @@ class Calculator
      *
      * @param float $a
      * @param float $b
+     *
      * @return float
      */
     public function multiply(float $a, float $b)
@@ -45,6 +48,7 @@ class Calculator
      *
      * @param float $a
      * @param float $b
+     *
      * @return float
      */
     public function divide(float $a, float $b)
