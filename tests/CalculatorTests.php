@@ -1,8 +1,9 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
+namespace AlexanderZabornyi\PackageTest\tests;
 
-require '../src/Calculator.php';
+use PHPUnit\Framework\TestCase;
+use AlexanderZabornyi\PackageTest\Calculator;
 
 class CalculatorTests extends TestCase
 {
@@ -32,21 +33,21 @@ class CalculatorTests extends TestCase
         $this->assertEquals(3, $result);
     }
 
-    public function testDeflation()
+    public function testSubtract()
     {
-        $result = $this->calculator->deflation(2, 1);
+        $result = $this->calculator->subtract(2, 1);
         $this->assertEquals(1, $result);
     }
 
-    public function testMultiplication()
+    public function testMultiply()
     {
-        $result = $this->calculator->multiplication(2, 3);
+        $result = $this->calculator->multiply(2, 3);
         $this->assertEquals(6, $result);
     }
 
-    public function testSeparation()
+    public function testDivide()
     {
-        $result = $this->calculator->separation(3, 3);
+        $result = $this->calculator->divide(3, 3);
         $this->assertEquals(1, $result);
     }
 
