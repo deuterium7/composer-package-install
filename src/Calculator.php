@@ -1,11 +1,15 @@
 <?php
 
+namespace AlexanderZabornyi\PackageTest;
+
 class Calculator
 {
     /**
-     * @param $a
-     * @param $b
-     * @return mixed
+     * Сложение двух чисел
+     *
+     * @param float|int $a
+     * @param float|int $b
+     * @return float|int
      */
     public function add($a, $b)
     {
@@ -13,31 +17,37 @@ class Calculator
     }
 
     /**
-     * @param $a
-     * @param $b
-     * @return mixed
+     * Вычитание двух чисел
+     *
+     * @param float|int $a
+     * @param float|int $b
+     * @return float|int
      */
-    public function deflation($a, $b)
+    public function subtract($a, $b)
     {
         return $a - $b;
     }
 
     /**
-     * @param $a
-     * @param $b
-     * @return mixed
+     * Умножение двух чисел
+     *
+     * @param float|int $a
+     * @param float|int $b
+     * @return float|int
      */
-    public function multiplication($a, $b)
+    public function multiply($a, $b)
     {
         return $a * $b;
     }
 
     /**
-     * @param $a
-     * @param $b
+     * Деление двух чисел
+     *
+     * @param float|int $a
+     * @param float|int $b
      * @return float|int
      */
-    public function separation($a, $b)
+    public function divide($a, $b)
     {
         return $a / $b;
     }
