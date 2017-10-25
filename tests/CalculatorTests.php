@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexanderZabornyi\PackageTest\tests;
+namespace AlexanderZabornyi\PackageTest\Tests;
 
 use PHPUnit\Framework\TestCase;
 use AlexanderZabornyi\PackageTest\Calculator;
