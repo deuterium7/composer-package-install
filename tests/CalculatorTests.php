@@ -19,36 +19,27 @@ class CalculatorTests extends TestCase
         $this->calculator = NULL;
     }
 
-    public function testEmpty()
-    {
-        $stack = [];
-        $this->assertEmpty($stack);
-
-        return $stack;
-    }
-
-    public function testAdd()
+    public function testAddMethod()
     {
         $result = $this->calculator->add(1, 2);
         $this->assertEquals(3, $result);
     }
 
-    public function testSubtract()
+    public function testSubtractMethod()
     {
         $result = $this->calculator->subtract(2, 1);
         $this->assertEquals(1, $result);
     }
 
-    public function testMultiply()
+    public function testMultiplyMethod()
     {
         $result = $this->calculator->multiply(2, 3);
         $this->assertEquals(6, $result);
     }
 
-    public function testDivide()
+    public function testDivideMethod()
     {
         $result = $this->calculator->divide(3, 3);
         $this->assertEquals(1, $result);
     }
-
 }

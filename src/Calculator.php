@@ -7,11 +7,11 @@ class Calculator
     /**
      * Сложение двух чисел
      *
-     * @param float|int $a
-     * @param float|int $b
-     * @return float|int
+     * @param float $a
+     * @param float $b
+     * @return float
      */
-    public function add($a, $b)
+    public function add(float $a, float $b)
     {
         return $a + $b;
     }
@@ -19,11 +19,11 @@ class Calculator
     /**
      * Вычитание двух чисел
      *
-     * @param float|int $a
-     * @param float|int $b
-     * @return float|int
+     * @param float $a
+     * @param float $b
+     * @return float
      */
-    public function subtract($a, $b)
+    public function subtract(float $a, float $b)
     {
         return $a - $b;
     }
@@ -31,11 +31,11 @@ class Calculator
     /**
      * Умножение двух чисел
      *
-     * @param float|int $a
-     * @param float|int $b
-     * @return float|int
+     * @param float $a
+     * @param float $b
+     * @return float
      */
-    public function multiply($a, $b)
+    public function multiply(float $a, float $b)
     {
         return $a * $b;
     }
@@ -43,11 +43,11 @@ class Calculator
     /**
      * Деление двух чисел
      *
-     * @param float|int $a
-     * @param float|int $b
-     * @return float|int
+     * @param float $a
+     * @param float $b
+     * @return float
      */
-    public function divide($a, $b)
+    public function divide(float $a, float $b)
     {
         return $a / $b;
     }
